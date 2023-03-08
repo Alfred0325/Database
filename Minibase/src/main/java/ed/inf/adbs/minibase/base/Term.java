@@ -4,7 +4,6 @@ public abstract class Term {
 
     public abstract Term deepCopy();
 
-    public abstract boolean equals(Object obj);
 }
 
 

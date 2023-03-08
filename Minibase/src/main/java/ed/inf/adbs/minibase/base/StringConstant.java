@@ -20,6 +20,12 @@ public class StringConstant extends Constant {
         return new StringConstant(this.value);
     }
 
+    @Override
+    public int hashCode(){
+        return this.value.hashCode();
+    }
+
+    @Override
     public boolean equals(Object obj){
         if (obj == this) {
             return true;

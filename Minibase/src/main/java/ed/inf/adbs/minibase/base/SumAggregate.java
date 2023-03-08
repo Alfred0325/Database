@@ -25,6 +25,7 @@ public class SumAggregate extends Term {
         return new SumAggregate(this.productTerms);
     }
 
+    @Override
     public boolean equals(Object obj){
        return true;
     }
